@@ -22,7 +22,7 @@ public class VariablesTest {
         double d1 = 0.29/0.0001;
         double d2 = 0.00029*1.0e7;
         
-        epsilon = 1e-10;
+        double epsilon = 1e-10;
         if (Math.abs(d1 - d2) < epsilon) {
             System.out.print("d1,d2 differ by less than ");
             System.out.println( epsilon );
